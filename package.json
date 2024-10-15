@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "pnpm -r build",
     "benchmark": "node -r ./config.js packages/benchmark/src/index.js",
     "visualize": "cd visualize && pnpm dev",
-    "server": "pnpm benchmark && pnpm visualize"
+    "server": "pnpm benchmark && pnpm visualize",
+    "build": "pnpm benchmark && pnpm -r build"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
