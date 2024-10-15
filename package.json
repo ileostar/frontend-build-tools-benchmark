@@ -1,0 +1,23 @@
+{
+  "name": "frontend-build-tools-benchmark",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm -r build",
+    "benchmark": "node -r ./config.js packages/benchmark/src/index.js",
+    "visualize": "cd visualize && pnpm dev",
+    "server": "pnpm benchmark && pnpm visualize"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/webpack": "workspace:*",
+    "@frontend-build-tools-benchmark/vite": "workspace:*",
+    "@frontend-build-tools-benchmark/esbuild": "workspace:*",
+    "@frontend-build-tools-benchmark/rollup": "workspace:*",
+    "@frontend-build-tools-benchmark/parcel": "workspace:*",
+    "@frontend-build-tools-benchmark/rspack": "workspace:*",
+    "@frontend-build-tools-benchmark/turbopack": "workspace:*"
+  }
+}

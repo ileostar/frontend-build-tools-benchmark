@@ -1,0 +1,13 @@
+{
+  "name": "@frontend-build-tools-benchmark/esbuild",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.0"
+  }
+}

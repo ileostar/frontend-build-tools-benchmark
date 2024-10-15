@@ -1,0 +1,13 @@
+{
+  "name": "@frontend-build-tools-benchmark/turbopack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "next build"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/shared": "workspace:*",
+    "next": "^13.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

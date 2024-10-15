@@ -1,0 +1,14 @@
+{
+  "name": "@frontend-build-tools-benchmark/webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

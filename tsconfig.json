@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@frontend-build-tools-benchmark/*": ["packages/*/src"]
+    },
+    "typeRoots": ["./node_modules/@types", "./packages"],
+    "types": []
+  },
+  "include": ["packages/*/src/**/*", "main.ts", "packages/shared/index.d.ts"],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@frontend-build-tools-benchmark/parcel",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "parcel build src/index.js"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}

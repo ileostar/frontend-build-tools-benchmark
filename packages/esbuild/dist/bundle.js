@@ -1,0 +1,1 @@
+"use strict";var l=o=>o<=1?o:l(o-1)+l(o-2),c=o=>o<=1?1:o*c(o-1),e=(o,i)=>{let t=0;for(let r=0;r<1e6;r++)t+=Math.sin(o)*Math.cos(i);return t};console.log("esbuild build");console.log("Fibonacci(10):",l(10));console.log("Factorial(5):",c(5));console.log("Complex calculation:",e(1,2));

@@ -1,0 +1,1 @@
+(()=>{"use strict";const o=l=>l<=1?l:o(l-1)+o(l-2),l=o=>o<=1?1:o*l(o-1);console.log("Webpack build"),console.log("Fibonacci(10):",o(10)),console.log("Factorial(5):",l(5)),console.log("Complex calculation:",(()=>{let o=0;for(let l=0;l<1e6;l++)o+=Math.sin(1)*Math.cos(2);return o})())})();

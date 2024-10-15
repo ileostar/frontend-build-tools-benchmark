@@ -1,0 +1,14 @@
+{
+  "name": "@frontend-build-tools-benchmark/rollup",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "rollup": "^2.79.1",
+    "@rollup/plugin-node-resolve": "^15.0.1"
+  }
+}

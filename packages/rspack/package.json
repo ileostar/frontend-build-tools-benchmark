@@ -1,0 +1,13 @@
+{
+  "name": "@frontend-build-tools-benchmark/rspack",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "@frontend-build-tools-benchmark/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^0.1.12"
+  }
+}

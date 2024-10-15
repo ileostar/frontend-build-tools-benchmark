@@ -1,0 +1,9 @@
+{
+  "name": "@frontend-build-tools-benchmark/shared",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "echo 'No build step for shared package'"
+  }
+}
