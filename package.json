@@ -6,7 +6,7 @@
     "benchmark": "node -r ./config.js packages/benchmark/src/index.js",
     "visualize": "cd visualize && pnpm dev",
     "server": "pnpm benchmark && pnpm visualize",
-    "build": "pnpm benchmark && pnpm -r build"
+    "build": "pnpm benchmark && pnpm -F visualize build"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
